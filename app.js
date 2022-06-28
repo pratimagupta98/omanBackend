@@ -11,11 +11,11 @@ app.use(express.urlencoded({ extended: true }));
 app.use(cors());
 
 //require
-//const customer = require("./routes/customer");
-//const staff = require("./routes/staff");
+const customer = require("./routes/customer");
+const staff = require("./routes/staff");
 const product = require("./routes/product");
 const productcategory = require("./routes/productcategory");
-//const seller = require("./routes/seller");
+const seller = require("./routes/seller");
 const productsubcategory = require("./routes/productsubcategory");
 const brand = require("./routes/brand");
 const banner = require("./routes/banner");
@@ -67,10 +67,10 @@ const orderproduct = require("./routes/orderproduct");
  
 
 //use
-//app.use("/", customer);
+app.use("/", customer);
 app.use("/", product);
 app.use("/", productcategory);
-//app.use("/", seller);
+app.use("/", seller);
 //app.use("/", staff);
 app.use("/", productsubcategory);
 app.use("/", brand);
