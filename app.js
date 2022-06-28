@@ -12,7 +12,7 @@ app.use(cors());
 
 //require
 //const customer = require("./routes/customer");
-const staff = require("./routes/staff");
+//const staff = require("./routes/staff");
 const product = require("./routes/product");
 const productcategory = require("./routes/productcategory");
 const seller = require("./routes/seller");
