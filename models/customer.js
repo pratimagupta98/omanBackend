@@ -30,10 +30,7 @@ const customerSchema = new Schema(
       type: String,
     },
 
-    //  code: {
-    //  type: String,
-    //   default: 1234,
-    // },
+    
     code:{
       type :String
     },
